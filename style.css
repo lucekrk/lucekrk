@@ -1,10 +1,64 @@
+
+
+
+
+
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+
+
+@media (min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: 100%;
+        height: auto;
+}
+@media (max-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{
   margin: 0;
   padding: 0;
   font-family: montserrat;
-  background: black;
+
 }
 .center{
+  background-color: rgba(1, 0, 0, 0.9);
+  color: rgba(1, 0, 0, 0.9);
   display: flex;
   text-align: center;
   justify-content: center;
@@ -48,7 +102,7 @@ body{
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  box-shadow: 0 0 5px rgba(255,255,255,.3);
+  box-shadow: 0 0 5px rgba(255,255,255,.10);
 }
 span{
   color: #737373;
