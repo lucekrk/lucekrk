@@ -80,6 +80,7 @@ async function getInputValue(){
     createCode("clear", "wyczyść terminal");
     createCode("strona", "");
     createCode("exit", "exit");
+    createCode("lucOS", "System lucOS");
 
   }
   else if(value === "o mnie"){
@@ -100,6 +101,17 @@ async function getInputValue(){
     trueValue(value);
     createText("Terminal: <a href='https://github.com/heberleonard2/terminal-style-portfolio-page' target='_blank'><i class='fab fa-github white'></i> githu.com/terminal</a>")
     createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
+  }
+  else if(value === "start lucOS"){
+    trueValue(value);
+    createText("Uruchamianie sesji lucOS")
+    await delay(500);
+    location.href="lucOS/index.html";
+  }
+  else if(value === "lucOS"){
+    trueValue(value);
+    createText("Zła komenda.")
+
   }
   else if(value === "exit"){
     trueValue(value);
