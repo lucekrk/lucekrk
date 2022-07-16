@@ -113,13 +113,14 @@ async function getInputValue(){
   else if(value === "strona"){
     trueValue(value);
     createText("Terminal: <a href='https://github.com/heberleonard2/terminal-style-portfolio-page' target='_blank'><i class='fab fa-github white'></i> githu.com/terminal</a>")
-
-    else if(value === "Strona"){
+    createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
+  }
+  else if(value === "Strona"){
       trueValue(value);
       createText("Terminal: <a href='https://github.com/heberleonard2/terminal-style-portfolio-page' target='_blank'><i class='fab fa-github white'></i> githu.com/terminal</a>")
       createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
-    }  createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
   }
+
   else if(value === "exit"){
     trueValue(value);
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
