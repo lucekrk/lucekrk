@@ -87,17 +87,7 @@ async function getInputValue(){
     createText("Witaj z tej strony lucekrk")
     createText("Najbardziej interesuje się rakietami i kosmosem, lecz też programowaniem i elektroniką. Programowanie raaaaczej robie for fun. Nie wiem co jescze napisać :P")
   }
-  else if(value === "O mnie"){
-    trueValue(value);
-    createText("Witaj z tej strony lucekrk")
-    createText("Najbardziej interesuje się rakietami i kosmosem, lecz też programowaniem i elektroniką. Programowanie raaaaczej robie for fun. Nie wiem co jescze napisać :P")
-  }
   else if(value === "social -a"){
-    trueValue(value);
-    createText("<i class='fab fa-discord white'></i> discord: <a>lucekrk#8849</a>")
-    createText("<a href='https://www.instagram.com/lucekrkkk/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/lucekrkkk</a>")
-  }
-  else if(value === "Social -a"){
     trueValue(value);
     createText("<i class='fab fa-discord white'></i> discord: <a>lucekrk#8849</a>")
     createText("<a href='https://www.instagram.com/lucekrkkk/' target='_blank'><i class='fab fa-instagram white'></i> instagram.com/lucekrkkk</a>")
@@ -106,29 +96,12 @@ async function getInputValue(){
     trueValue(value);
     createText("miałeś na myśli: social -a?")
   }
-  else if(value === "Switchocial"){
-    trueValue(value);
-    createText("miałeś na myśli: social -a?")
-  }
   else if(value === "strona"){
     trueValue(value);
     createText("Terminal: <a href='https://github.com/heberleonard2/terminal-style-portfolio-page' target='_blank'><i class='fab fa-github white'></i> githu.com/terminal</a>")
     createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
   }
-  else if(value === "Strona"){
-      trueValue(value);
-      createText("Terminal: <a href='https://github.com/heberleonard2/terminal-style-portfolio-page' target='_blank'><i class='fab fa-github white'></i> githu.com/terminal</a>")
-      createText("Minigierka: <a href='https://deemor.github.io/powerStationHack/' target='_blank'><i class='fab fa-github white'></i> github.com/gierka</a>")
-  }
-
   else if(value === "exit"){
-    trueValue(value);
-    document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
-    document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
-    await delay(300);
-    location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-  }
-  else if(value === "Exit"){
     trueValue(value);
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
@@ -141,14 +114,6 @@ async function getInputValue(){
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
   }
   else if(value === "clr"){
-    document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
-    document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
-  }
-  else if(value === "Clear"){
-    document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
-    document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
-  }
-  else if(value === "Clr"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
   }
