@@ -394,9 +394,9 @@ async function start()
 
     });
     await delay(4);
-    location.href="index.html";
+    location.reload();
   }
-  
+
 }
 $("#buttonStart").on( "click", function() {
   $("#buttonDiv").hide();
