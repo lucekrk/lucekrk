@@ -380,6 +380,7 @@ async function start()
       ease: "linear",
     });
     await delay(4);
+    location.href="mainWeb/index.html";
   }else{
     $("#progress-bar").stop(true,true);
     $("#navText").html("NIE PRZYZNANO DOSTĘPU");
@@ -390,10 +391,11 @@ async function start()
     }, {
       duration: 4*1000,
       ease: "linear",
+
     });
     await delay(4);
   }
-  location.href="mainWeb/index.html";
+  location.href="index.html";
 }
 $("#buttonStart").on( "click", function() {
   $("#buttonDiv").hide();
