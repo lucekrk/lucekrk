@@ -1,3 +1,3 @@
 # Lucekrk
 
-**(Developer, Rakietomaniak, fan kosmosu)**
+**'(Developer, Rakietomaniak, fan kosmosu)'**
